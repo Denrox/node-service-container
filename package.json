@@ -1,6 +1,6 @@
 {
   "name": "node-sc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Service container for nodejs apps. Supports lazy loading, inheriting from other sevice through config, wrapping native node modules with service container.",
   "main": "lib/index.js",
   "scripts": {
