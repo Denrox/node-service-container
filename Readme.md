@@ -57,7 +57,7 @@ $ npm i node-sc
   Usage of the service container is following:
 
 ```javascript
-const ServiceContainer = require('../lib');
+const ServiceContainer = require('node-sc');
 
 let baseDir = __dirname;
 let sc = ServiceContainer.getInstance(baseDir, {
