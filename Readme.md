@@ -59,6 +59,7 @@ $ npm i node-sc
 ```javascript
 const ServiceContainer = require('node-sc');
 
+//base dir relative to which pathes to services are going to be specified
 let baseDir = __dirname;
 let sc = ServiceContainer.getInstance(baseDir, {
   "fs": {
