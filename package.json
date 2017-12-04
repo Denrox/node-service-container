@@ -1,0 +1,38 @@
+{
+  "name": "service-container",
+  "version": "1.0.0",
+  "description": "Service container for nodejs apps. Supports lazy loading, inheriting from other sevice through config, wrapping native node modules with service container.",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "./node_modules/eslint/bin/eslint.js ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Denrox/node-service-container.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "service",
+    "container",
+    "di",
+    "container",
+    "lazy",
+    "load",
+    "service"
+  ],
+  "author": "Denis Bashkatov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Denrox/node-service-container/issues"
+  },
+  "homepage": "https://github.com/Denrox/node-service-container#readme",
+  "devDependencies": {
+    "eslint": "4.12.1",
+    "eslint-config-standard": "10.2.1",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-node": "5.2.1",
+    "eslint-plugin-promise": "3.6.0",
+    "eslint-plugin-standard": "3.0.1"
+  }
+}

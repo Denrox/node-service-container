@@ -1,0 +1,16 @@
+{
+  "extends": "standard",
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
+  "rules": {
+    "semi": ["error", "always"],
+    "padded-blocks": [
+      "error",
+      {
+        "blocks": "never",
+        "classes": "always"
+      }
+    ]
+  }
+}

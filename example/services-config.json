@@ -1,0 +1,24 @@
+{
+  "fs": {
+    "location": "fs",
+    "isPackage": true
+  },
+  "path": {
+    "location": "path",
+    "isPackage": true
+  },
+  "errorFormatter": {
+    "location": "./services/ErrorFormatter",
+    "construct": true,
+    "constructFn": "getInstance"
+  },
+  "fileLogger": {
+    "location": "./services/FileLogger",
+    "construct": true,
+    "dependencies": [
+      "fs",
+      "path",
+      "errorFormatter"
+    ]
+  }
+}
